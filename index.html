@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="prism.css">
+    
+    <link rel="stylesheet" href="style.css">
+    <title>JAVA SYNTAX</title>
+</head>
+
+<body style="background-color: grey;">
+    <nav>
+        <div class="content center">
+            JAVA SYNTAX FOR BEGINNERS!
+        </div>
+    </nav>
+    <div class="container">
+        <ol>
+            <li><b></b>  Taking Input
+                <pre class="language-html"><code>
+                     import java.util.Scanner; //import scanner class
+
+                    // create an object of Scanner class
+                    Scanner input = new Scanner(System.in);
+                    
+                    // take input from the user
+                    String varName = input.nextLine();
+                    
+             </code></pre>
+            </li> 
+            <li><b>Giving Output:</b> 
+                <pre class="language-js"><code><center>System.out.println([text]) </center></code></pre>
+            </li> 
+            <li><b>Modulo Remainder: </b>It returns the remainder of the two numbers after division
+                <pre class="language-js"><code><center>int x = 10 % 3;</center> </code></pre>
+            </li> 
+            <li><b>Augmented Operators: </b> 
+                <pre class="language-js"><code>
+                    var += 10 // var = var + 10 
+                    var -= 10 // var = var - 10 
+                    var *= 10 // var = var * 10 
+                    var /= 10 // var = var / 10 
+                    var %= 10 // var = var % 10</code></pre>
+            </li> 
+            <li><b>Type Casting:</b>Type Casting is a process of converting one data type into another
+                <pre class="language-js"><code>
+                    //Widening Type Casting
+                    //It means converting a lower data type into a higher 
+                    // int x = 45;
+                    double var_name = x;
+                    //Narrowing Type Casting
+                    //It means converting a higher data type into a lower
+                    double x = 165.48
+                    int var_name = (int)x;
+                </code></pre>
+            </li> 
+            <li><b>Decision Control Statements:</b> Conditional statements are used to perform operations based on some condition.
+                <br> <b>If Statement:</b>
+                <pre class="language-js"><code>
+                    if (condition) {
+                        // block of code to be executed if the condition is true
+                        } </code></pre>
+            </li> 
+            <b>if-else Statement:</b> 
+                <pre class="language-js"><code>
+                    if (condition) {
+                        // If condition is True then this block will get executed
+                        } else {
+                        // If condition is False then this block will get executed
+                        } </code></pre>
+            
+            <b>if else-if Statement:</b>
+                <pre class="language-js"><code>
+                    if (condition1) {
+                        // Codes
+                        }
+                        else if(condition2) {
+                        // Codes
+                        }
+                        else if (condition3) {
+                        // Codes
+                        }
+                        else {
+                        // Codes
+                        } </code></pre>
+             
+            <b>Ternary Operator:</b> It is shorthand of an if-else statement.
+                <pre class="language-js"><code><center>variable = (condition) ? expressionTrue : expressionFalse; </center></code></pre>
+             
+            <b>Switch Statements:</b> It allows a variable to be tested for equality against a list of values (cases).
+                <pre class="language-js"><code>
+                    switch(expression) {
+                        case a:
+                        // code block
+                        break;
+                        case b:
+                        // code block
+                        break;
+                        default:
+                        // code block
+                        } </code></pre>
+             
+            <li><b>Iterative statements:</b> <br>Iterative statements facilitate programmers to execute any block of code lines repeatedly and can be controlled as per conditions added by the coder.<br>
+                <b>while Loop: </b><br>
+                It iterates the block of code as long as a specified condition is True
+                <pre class="language-js"><code>
+                    while (condition) {
+                        // code block
+                        } </code></pre>
+            </li> 
+            <b>for loop: </b> for loop is used to run a block of code several times
+                <pre class="language-js"><code>
+                    for (initialization; termination; increment) {
+                        statement(s)
+                        } </code></pre>
+            
+            <b>for-each Loop:</b> 
+                <pre class="language-js"><code>
+                    for(dataType item : array) {
+                        ...
+                        } </code></pre>
+            
+            <b>do while loop:</b> It is an exit controlled loop. It is very similar to the while loop with one difference, i.e., the body of the do-while loop is executed at least once even if the condition is False
+                <pre class="language-js"><code>
+                    do {
+                        // body of loop
+                        } while(textExpression)
+                </code></pre>
+            
+            <li><b>break statement:</b> break keyword inside the loop is used to terminate the loop
+                <pre class="language-js"><code><center>break; </center> </code></pre>
+            </li> 
+            <li><b>Continue statement:</b> continue keyword skips the rest of the current iteration of the loop and returns to the starting point of the loop
+
+                
+                <pre class="language-js"><code> <center>continue; </center></code></pre>
+            </li> 
+            <li><b>Arrays</b> <br>Arrays are used to store multiple values in a single variable
+                <br><b>Declaring an array:</b>
+                <pre class="language-js"><code><center>String[] var_name;</center> </code></pre>
+             </li>
+            <b>Defining an array:</b> 
+                <pre class="language-js"><code><center>String[] var_name = {"Gauri", "Gautam", "Google"}; </center></code></pre>
+            
+            <b>Array length:</b> 
+                <pre class="language-js"><code><center>System.out.println(var_name.length);</center> </code></pre>
+             
+            <li><b>Multi-dimensional Arrays:</b> Arrays can be 1-D, 2-D or multi-dimensional.
+                <pre class="language-js"><code>
+                    // Creating a 2x3 array (two rows, three columns) 
+                       int[2][3] matrix = new int[2][3]; 
+                       matrix[0][0] = 10; 
+                    // Shortcut 
+                        int[2][3] matrix = { 
+                        { 1, 2, 3 }, 
+                        { 4, 5, 6 } 
+                            }; </code></pre>
+            </li> 
+            
+            
+        </ol>
+    </div>
+</body>
+
+</html>

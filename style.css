@@ -1,0 +1,26 @@
+*{
+    margin: 1;
+    padding: 0;
+}
+
+nav{
+    font-size: 3rem;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #272822;
+    color: white;
+    height: 80px;
+}
+
+.container{
+    
+   width: 60vw;
+    padding: 32px 0;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+
+
